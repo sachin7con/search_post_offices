@@ -1,0 +1,142 @@
+/* ONS */
+
+  .marginL{
+    display: flex;
+    justify-content: space-between;
+  }
+  #Lat{
+      width: 20%;
+  }
+  #Long{
+      width: 20%;
+  }
+  #ip{
+    color: #B8BCCC;
+    font-size: 20px;
+  }
+  #submit {
+    background-color: #575A85;
+    color: #B8BCCC;
+    border: 1px solid #B8BCCC;
+    border-radius: 5px;
+    font-size: 15px;
+    padding : 10px;
+    width: 180px;
+    margin-left: 25%;
+  }
+
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+       height: 100vh; /* Full viewport height */
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+  }
+  .container {
+      display: flex;
+      width: 100%;
+      height:100vh;
+  }
+
+    .column {
+        flex: 1; /* Each column takes up equal space */
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .left-column {
+        background-color: #000000;
+        color: #B8BCCC;
+    }
+    .left-column h2 {
+
+        color: #575A85;
+    }
+    .right-column {
+        background-color: #575A85;
+        color: white;
+    }
+    .white{
+      color:white;
+    }
+
+    #searchPage {
+      display: none;
+      padding: 20px;
+      background-color:black;
+      color:#B8BCCC;
+      }
+      #searchPage h2 {
+        text-align: center;
+      }
+
+    #header, #moreInfo {
+        margin-bottom: 20px;
+    }
+
+    #header p, #moreInfo p {
+        margin: 5px 0;
+    }
+
+    #mapbck {
+        height: 600px;
+        width: 100%;
+        background-color: #575A85;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+  #mapContainer {
+    text-align: center;
+  }
+
+  #mapContainer h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #map {
+    width: 600px;
+    height: 450px;
+  }
+
+
+    .postOffice {
+        margin: 10px 0;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        background-color: #575A85;
+        color: white;
+
+    }
+
+    #searchBox input {
+        width: 100%;
+        padding: 8px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color:black;
+        color: white;
+    }
+
+    #listOfPO {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+}
+    .centered-image {
+        margin-left: 30%;
+        margin-top: 25%;
+
+    }
+    #centeredItem {
+        margin-left: 40%;
+        margin-top: 30%;
+
+    }
